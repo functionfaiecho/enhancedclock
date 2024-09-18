@@ -8,10 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      // Add custom font family under extend
+      // Add custom font family.
       fontFamily: {
         digitalClock: ['VT323', 'monospace'], /* Declaration of the font for the Clock.tsx and LiveClock.tsx */
-        clockDesc: ['Space Grotesk', 'sans-serif'],
+        clockDesc: ['Space Grotesk', 'sans-serif'], /* Declaration of Space Grotesk, but default to sans serif. */
       },
       colors: {
         background: "#171219",
