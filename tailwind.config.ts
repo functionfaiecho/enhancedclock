@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      // Add custom font family under extend
+      fontFamily: {
+        vt323: ['VT323', 'monospace'], /* Declaration of the font for the Clock.tsx and LiveClock.tsx */
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -16,4 +20,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
