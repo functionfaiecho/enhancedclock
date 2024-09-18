@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       // Add custom font family under extend
       fontFamily: {
-        vt323: ['VT323', 'monospace'], /* Declaration of the font for the Clock.tsx and LiveClock.tsx */
+        digitalClock: ['VT323', 'monospace'], /* Declaration of the font for the Clock.tsx and LiveClock.tsx */
       },
       colors: {
         background: "#171219",
