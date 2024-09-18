@@ -38,7 +38,10 @@ Once successful, the application will display a menu in terminal. Enjoy!
 
 ## Future Developments
 
-**Live Clock** - A dynamically-updated clock based on the user's computer time.
+1. **Live Clock** - A dynamically-updated clock based on the user's computer time.
+
+2. World Clock Alarm (Clock) - For the gamers who need to get synchronised with their squad for tournaments.
+
 
 
 
