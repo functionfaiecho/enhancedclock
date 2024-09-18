@@ -16,7 +16,8 @@ const config: Config = {
         background: "#171219",
         textColour: "#EFEFEF",
         clockDigit12: "#139A43",
-        clockDigit24: "#F4442E"
+        clockDigit24: "#F4442E",
+        clockBox: "#2C222F"
 
       },
     },
