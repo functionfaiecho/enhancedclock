@@ -13,8 +13,11 @@ const config: Config = {
         vt323: ['VT323', 'monospace'], /* Declaration of the font for the Clock.tsx and LiveClock.tsx */
       },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#171219",
+        textColour: "#EFEFEF",
+        clockDigit12: "#139A43",
+        clockDigit24: "#F4442E"
+
       },
     },
   },
