@@ -94,13 +94,42 @@ const Clock: React.FC = () => {
               onDecrement={() => changeSecond(false, second, setSecond, setMinute, setHour12)} // Decrease second
             />
 
-            {/* AM/PM toggle - user can click to switch between AM and PM */}
-            <span
-              className="text-textColour text-sm ml-2 cursor-pointer flex items-end -mt-8"
-              onClick={() => toggleAMPM(setIsAM)} // Toggle AM/PM
-            >
-              {isAM ? "AM" : "PM"}
-            </span>
+            {/* AM/PM toggle - updated to show AM and PM with circular-like movement */}
+            <div className="relative flex flex-col items-center justify-center">
+              {/* AM */}
+              <div
+                className="absolute"
+                style={{
+                  top: isAM ? '0' : '100px',  // Move AM down when PM is active
+                  opacity: isAM ? 1 : 0,      // Hide AM when PM is active
+                  transition: "top 0.5s, opacity 0.5s",  // Smooth transition for AM/PM
+                }}
+              >
+                <span
+                  className="text-textColour text-sm cursor-pointer flex items-end"
+                  onClick={() => toggleAMPM(setIsAM)} // Toggle AM/PM
+                >
+                  AM
+                </span>
+              </div>
+
+              {/* PM */}
+              <div
+                className="absolute"
+                style={{
+                  top: isAM ? '100px' : '0',  // Move PM up when PM is active
+                  opacity: isAM ? 0 : 1,      // Hide PM when AM is active
+                  transition: "top 0.5s, opacity 0.5s",  // Smooth transition for AM/PM
+                }}
+              >
+                <span
+                  className="text-textColour text-sm cursor-pointer flex items-end"
+                  onClick={() => toggleAMPM(setIsAM)} // Toggle AM/PM
+                >
+                  PM
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 
