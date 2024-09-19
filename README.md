@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This C++ application is a static clock which takes user input (through the numbers 1, 2, 3 and 4) to add an hour, second or time to its interface. It was completed as the final project in CS 210 - Programming Languages. The enhancement on this project is a front-end created in Next JS 14, Tailwind and TypeScript. In this application, the 12 and 24 hour clocks change in parallel. A deployed version of the enhancement may be accessed [here](enhancedclock.up.railway.app).
+This C++ application is a static clock which takes user input (through the numbers 1, 2, 3 and 4) to add an hour, second or time to its interface. It was completed as the final project in CS 210 - Programming Languages. The enhancement on this project is a front-end created in Next JS 14, Tailwind and TypeScript. In this application, the 12 and 24 hour clocks change in parallel. A deployed version of the enhancement may be accessed [here](http://enhancedclock.up.railway.app).
 ## Table of Contents
 
 1. [Running the original application (C++)](#running-the-original-application-c)
