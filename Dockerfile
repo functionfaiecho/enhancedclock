@@ -10,7 +10,7 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
-# Copy the rest of your application code to the container
+# Copy the rest application code to the container
 COPY . .
 
 # Expose the port Next.js will run on
