@@ -47,7 +47,7 @@ Once successful, the application will display a menu in terminal. Enjoy!
 
 -  Build the Docker image using ```docker build -t enhancedclock .```.
 
-- Once successful, run ```docker run -p 3000:3000 enhancedclock```.
+- Once successful, run ```docker run -it -p 3000:3000 enhancedclock```.
 
 ### How to use the (enhanced) application
 
